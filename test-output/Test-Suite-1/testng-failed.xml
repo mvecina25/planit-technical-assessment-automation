@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Test-Suite-1]" guice-stage="DEVELOPMENT">
+  <parameter name="appURL" value="http://jupiter.cloud.planittesting.com/"/>
+  <parameter name="browserType" value="chrome"/>
+  <listeners>
+    <listener class-name="base.TestListener"/>
+  </listeners>
+  <test thread-count="5" name="Test-Case-1(failed)">
+    <classes>
+      <class name="tests.TestSuite1">
+        <methods>
+          <include name="setUp"/>
+          <include name="testCase4"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tests.TestSuite1 -->
+    </classes>
+  </test> <!-- Test-Case-1(failed) -->
+</suite> <!-- Failed suite [Test-Suite-1] -->

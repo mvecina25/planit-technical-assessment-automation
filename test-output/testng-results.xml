@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-07-13T02:20:17 PST" name="Test-Suite-1" finished-at="2021-07-13T02:21:11 PST" duration-ms="54195">
+    <groups>
+    </groups>
+    <test started-at="2021-07-13T02:20:17 PST" name="Test-Case-1" finished-at="2021-07-13T02:20:23 PST" duration-ms="6369">
+      <class name="tests.TestCase1">
+        <test-method is-config="true" signature="initializeTestBaseSetup(java.lang.String, java.lang.String)[pri:0, instance:tests.TestCase1@17497425]" started-at="2021-07-13T02:20:17 PST" name="initializeTestBaseSetup" finished-at="2021-07-13T02:20:22 PST" duration-ms="4653" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://jupiter.cloud.planittesting.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeTestBaseSetup -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext)[pri:0, instance:tests.TestCase1@17497425]" started-at="2021-07-13T02:20:22 PST" name="setUp" finished-at="2021-07-13T02:20:22 PST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@25567581]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCase1()[pri:0, instance:tests.TestCase1@17497425]" started-at="2021-07-13T02:20:22 PST" name="testCase1" finished-at="2021-07-13T02:20:23 PST" duration-ms="1566" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.TestCase1@17497425]" started-at="2021-07-13T02:20:23 PST" name="tearDown" finished-at="2021-07-13T02:20:23 PST" duration-ms="126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.TestCase1 -->
+    </test> <!-- Test-Case-1 -->
+    <test started-at="2021-07-13T02:20:23 PST" name="Test-Case-2" finished-at="2021-07-13T02:20:58 PST" duration-ms="35071">
+      <class name="tests.TestCase2">
+        <test-method is-config="true" signature="initializeTestBaseSetup(java.lang.String, java.lang.String)[pri:0, instance:tests.TestCase2@d9345cd]" started-at="2021-07-13T02:20:23 PST" name="initializeTestBaseSetup" finished-at="2021-07-13T02:20:27 PST" duration-ms="3916" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://jupiter.cloud.planittesting.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeTestBaseSetup -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext)[pri:0, instance:tests.TestCase2@d9345cd]" started-at="2021-07-13T02:20:27 PST" name="setUp" finished-at="2021-07-13T02:20:27 PST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@179ee36b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCase2()[pri:0, instance:tests.TestCase2@d9345cd]" started-at="2021-07-13T02:20:27 PST" name="testCase2" finished-at="2021-07-13T02:20:30 PST" duration-ms="2400" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase2 -->
+        <test-method signature="testCase2()[pri:0, instance:tests.TestCase2@d9345cd]" started-at="2021-07-13T02:20:30 PST" name="testCase2" finished-at="2021-07-13T02:20:41 PST" duration-ms="11817" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase2 -->
+        <test-method signature="testCase2()[pri:0, instance:tests.TestCase2@d9345cd]" started-at="2021-07-13T02:20:41 PST" name="testCase2" finished-at="2021-07-13T02:20:43 PST" duration-ms="1741" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase2 -->
+        <test-method signature="testCase2()[pri:0, instance:tests.TestCase2@d9345cd]" started-at="2021-07-13T02:20:43 PST" name="testCase2" finished-at="2021-07-13T02:20:45 PST" duration-ms="1773" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase2 -->
+        <test-method signature="testCase2()[pri:0, instance:tests.TestCase2@d9345cd]" started-at="2021-07-13T02:20:45 PST" name="testCase2" finished-at="2021-07-13T02:20:58 PST" duration-ms="13272" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.TestCase2@d9345cd]" started-at="2021-07-13T02:20:58 PST" name="tearDown" finished-at="2021-07-13T02:20:58 PST" duration-ms="141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.TestCase2 -->
+    </test> <!-- Test-Case-2 -->
+    <test started-at="2021-07-13T02:20:58 PST" name="Test-Case-3" finished-at="2021-07-13T02:21:04 PST" duration-ms="5794">
+      <class name="tests.TestCase3">
+        <test-method is-config="true" signature="initializeTestBaseSetup(java.lang.String, java.lang.String)[pri:0, instance:tests.TestCase3@506ae4d4]" started-at="2021-07-13T02:20:58 PST" name="initializeTestBaseSetup" finished-at="2021-07-13T02:21:02 PST" duration-ms="3856" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://jupiter.cloud.planittesting.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeTestBaseSetup -->
+        <test-method signature="testCase3()[pri:0, instance:tests.TestCase3@506ae4d4]" started-at="2021-07-13T02:21:02 PST" name="testCase3" finished-at="2021-07-13T02:21:04 PST" duration-ms="1775" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase3 -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext)[pri:0, instance:tests.TestCase3@506ae4d4]" started-at="2021-07-13T02:21:02 PST" name="setUp" finished-at="2021-07-13T02:21:02 PST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@67763ebe]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.TestCase3@506ae4d4]" started-at="2021-07-13T02:21:04 PST" name="tearDown" finished-at="2021-07-13T02:21:04 PST" duration-ms="161" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.TestCase3 -->
+    </test> <!-- Test-Case-3 -->
+    <test started-at="2021-07-13T02:21:04 PST" name="Test-Case-4" finished-at="2021-07-13T02:21:11 PST" duration-ms="6877">
+      <class name="tests.TestCase4">
+        <test-method is-config="true" signature="initializeTestBaseSetup(java.lang.String, java.lang.String)[pri:0, instance:tests.TestCase4@272113c4]" started-at="2021-07-13T02:21:04 PST" name="initializeTestBaseSetup" finished-at="2021-07-13T02:21:08 PST" duration-ms="3751" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://jupiter.cloud.planittesting.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeTestBaseSetup -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext)[pri:0, instance:tests.TestCase4@272113c4]" started-at="2021-07-13T02:21:08 PST" name="setUp" finished-at="2021-07-13T02:21:08 PST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4b4a2fa8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCase4()[pri:0, instance:tests.TestCase4@272113c4]" started-at="2021-07-13T02:21:08 PST" name="testCase4" finished-at="2021-07-13T02:21:11 PST" duration-ms="2990" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase4 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.TestCase4@272113c4]" started-at="2021-07-13T02:21:11 PST" name="tearDown" finished-at="2021-07-13T02:21:11 PST" duration-ms="132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.TestCase4 -->
+    </test> <!-- Test-Case-4 -->
+  </suite> <!-- Test-Suite-1 -->
+</testng-results>
