@@ -1,11 +1,13 @@
 package base;
 
-import org.apache.log4j.Logger;
+//import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
+import org.apache.logging.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
 
 public class InitializeLogging {
 	
-	public static Logger log = Logger.getLogger("Regression");
+	public static Logger log = LogManager.getLogger("Regression");
 	
 	//Static Block
 	static {
