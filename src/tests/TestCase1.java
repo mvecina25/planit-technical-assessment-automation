@@ -54,12 +54,14 @@ public class TestCase1 extends TestBaseSetup{
 		
 		// Establishing connection of two POMs
 		Home HP = new Home(driver);
+		
+		// From the home page go to contact page
 		Contact CP = HP.click_ContactTab();
 
 		// Click submit button
 		CP.click_Submit();
 		
-		// Validate errors
+		// Verify error messages
 		Assert.assertTrue(CP.errMsg_ContactForm().contains("Forename is required"));
 		Assert.assertTrue(CP.errMsg_ContactForm().contains("Email is required"));
 		Assert.assertTrue(CP.errMsg_ContactForm().contains("Message is required"));
